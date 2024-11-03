@@ -16,6 +16,9 @@ $ cp .env.example .env
 ## Opcionais
 Uma das tecnologias utilizadas foi o MailTrap, para receber os e-mails do Job. Para configurar o MailTrap, você precisará criar uma conta e obter as credenciais. Mas caso não queira utilizar o MailTrap, basta deixar os campos em branco no .env.
 
+A não configuração do MailTrap, não irá afetar o funcionamento da aplicação e também não ira afetar
+a visualização do e-mail pois o e-mail é printado no console.
+
 Criar Conta: <a href="https://mailtrap.io/" target="_blank">Mailtrap</a>
 
 ```bash
