@@ -22,52 +22,42 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Descrição
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+## Instalação
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+Configure as variáveis de ambiente: renomeie o arquivo .env.example para .env
+Para receber os e-mails do Job via MailTrap, preencha as credenciais correspondentes. Caso contrário, deixe os campos em branco e os e-mails serão exibidos no console.
 
+## Rodando a aplicação
+
+Instale o Docker e rode o comando abaixo para subir os containers
 ```bash
 # development
-$ npm run start
+$ sudo docker-compose up --build
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
-## Test
+## Testes
 
+Este projeto possui testes unitários e de integração. Para rodar os testes, execute o comando abaixo:
 ```bash
-# unit tests
 $ npm run test
 
 # e2e tests
 $ npm run test:e2e
 
-# test coverage
-$ npm run test:cov
 ```
 
-## Support
+## Consumindo APIs
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+O consumo das APIs é bem simplificado pois seguimos os padrões REST/OpenAPI. Para consumir as APIs, basta seguir a url abaixo:
+```bash
+$ http://localhost:3000/api/documentation
+```
