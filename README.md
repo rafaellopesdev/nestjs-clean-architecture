@@ -35,6 +35,11 @@ $ sudo docker-compose up --build
 
 ## Testes
 Este projeto possui testes unitários. Para rodar os testes, execute o comando abaixo:
+
+```bash
+$ npm install
+```
+
 ```bash
 $ npm run test
 ```
