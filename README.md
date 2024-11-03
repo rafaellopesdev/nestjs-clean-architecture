@@ -39,20 +39,15 @@ Para receber os e-mails do Job via MailTrap, preencha as credenciais corresponde
 
 Instale o Docker e rode o comando abaixo para subir os containers
 ```bash
-# development
 $ sudo docker-compose up --build
 
 ```
 
 ## Testes
 
-Este projeto possui testes unitários e de integração. Para rodar os testes, execute o comando abaixo:
+Este projeto possui testes unitários. Para rodar os testes, execute o comando abaixo:
 ```bash
 $ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
 ```
 
 ## Consumindo APIs
