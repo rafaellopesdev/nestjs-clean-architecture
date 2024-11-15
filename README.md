@@ -1,5 +1,5 @@
 ## Descrição
-Está aplicação foi desenvolvida seguindo os principios do SOLID, Clean Architecture e Clean Code, com o objetivo de criar um Todo List, onde é possível criar, listar, excluir e marcar como concluído as tarefas.
+Está aplicação foi desenvolvida seguindo os principios do SOLID, Clean Architecture, Clean Code e MonoRepo, com o objetivo de criar um Todo List, onde é possível criar, listar, excluir e marcar como concluído as tarefas.
 
 ## Requisitos
 Para executar este projeto, você precisará ter instalado em sua máquina as seguintes ferramentas:
